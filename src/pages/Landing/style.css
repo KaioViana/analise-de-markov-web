@@ -47,17 +47,16 @@
     left: 800px;
 }
 
-#page-landing footer {
+#page-landing footer div {
     display: flex;
-    flex-direction: row;
-    justify-content: right;
-    padding: 6px;
+    justify-content: flex-end;
+    padding-top: 42px;
 }
 
-#page-landing footer a {
+#page-landing footer div a {
     text-decoration: none;
     color: #000000;
-    padding-left: 3px;
+    padding-right: 7px;
 }
 
 #page-landing header button:hover {

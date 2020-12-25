@@ -39,10 +39,12 @@ function Landing() {
                     <img src={landGif} width="310px" height="612px" alt="máquina de Galton" />
                 </main>
                 <footer>
-                    <FiGithub />
-                    <a href="https://github.com/KaioViana/analise-de-markov" target="blanck">
-                        https://github.com/KaioViana/analise-de-markov
-                </a>
+                    <div>
+                        <FiGithub />
+                        <a href="https://github.com/KaioViana/analise-de-markov-web" target="blanck">
+                            https://github.com/KaioViana/analise-de-markov-web
+                        </a>
+                    </div>
                 </footer>
             </div>
         </>
