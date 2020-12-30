@@ -23,6 +23,7 @@
 #flyoutMenu .search input[type="text"] {
     display: block;
     margin-top: 20px;
+    margin-bottom: 7px;
     text-align: center;
     border-radius: 21px;
     border: 2px solid #000000;
@@ -30,4 +31,32 @@
     height: 5vh;
     padding-left: 9vw;
     padding-right: 9vw;
+}
+
+#flyoutMenu form div {
+    display: flex;
+    padding: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#flyoutMenu form div button {
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #FFE01B;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+#flyoutMenu form div button:hover {
+    background-color: #f5d718;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#flyoutMenu img {
+    position: absolute;
+    padding-left: 2vw;
 }

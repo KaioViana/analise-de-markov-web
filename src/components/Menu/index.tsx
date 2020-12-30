@@ -69,11 +69,15 @@ function Menu(props: Style) {
               id="search"
             />
           </div>
-          <div className="checkbox">
-            <Checkbox value="Timeline" checked={timelineCheckbox} onChange={handleCheckbox} />
-            <Checkbox value="Tweets públicos" checked={publicTweetsCheckbox} onChange={handleCheckbox} />
+          <div>
+            <div>
+              <Checkbox value="Timeline" checked={timelineCheckbox} onChange={handleCheckbox} />
+              <Checkbox value="Tweets públicos" checked={publicTweetsCheckbox} onChange={handleCheckbox} />
+            </div>
+            <div>
+              <button type="submit">iniciar</button>
+            </div>
           </div>
-          <button type="submit">iniciar</button>
         </form>
         <img src={andreiMarkov} alt="andrei-markov" width="696px" height="650" />
       </div>
