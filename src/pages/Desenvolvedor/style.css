@@ -37,12 +37,17 @@
     
 }
 
+#desenvolvedor footer {
+    position: absolute;
+    padding-left: 33vw;
+    bottom: 0;
+}
+
 #desenvolvedor footer span {
     display: flex;
     justify-content: center;
     position: relative;
     font-size: 18px;
-    top: 12.5vw;
 }
 
 #desenvolvedor footer .decoration {
@@ -59,6 +64,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding-top: 10px;
 }
 
 #desenvolvedor footer div a {
@@ -68,5 +74,4 @@
     padding-left: 1vw;
     text-decoration: none;
     color: #000000;
-    bottom: -14.5vw;
 }
