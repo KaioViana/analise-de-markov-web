@@ -6,7 +6,7 @@
     background-color: #FFE01B;
 }
 
-#page-landing header button {
+#page-landing header div button {
     width: 65px;
     align-items: center;
     padding: 10px;
@@ -17,9 +17,13 @@
     border-radius: 4px;
 }
 
-#page-landing header .desenvolvedor {
-    position: fixed;
-    left: 78vw;
+#page-landing header div {
+    display: flex;
+    flex-direction: row;
+}
+
+#page-landing header .desenvolvedor-markov a {
+    margin-left: 7px;
 }
 
 #page-landing main {
@@ -41,19 +45,25 @@
     justify-content: center;
 }
 
+#page-landing main div {
+    display: flex;
+    justify-content: center;
+}
+
 #page-landing main img {
     position: relative;
-    padding-top: 70px;
-    left: 800px;
+    padding-top: 10px;
+    right: 10px;
 }
 
-#page-landing footer div {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 42px;
+#page-landing footer  {
+    position: absolute;
+    bottom: 0;
+    padding: 4px;
 }
 
-#page-landing footer div a {
+
+#page-landing footer a  {
     text-decoration: none;
     color: #000000;
     padding-right: 7px;

@@ -26,7 +26,9 @@ function Desenvolvedor() {
                 </main>
                 <footer>
                     <span>Redes sociais</span>
-                    <span className="decoration"></span>
+                    <div className="decoration">
+                        <span></span>
+                    </div>
                     <div>
                         <a href="https://twitter.com/KaioVia25836155/" target="blanck">
                             <FiTwitter size="40px"/>

@@ -21,22 +21,30 @@ function Landing() {
         <>
             <div id="page-landing">
                 <header>
-                    <button onClick={() => { menuButtonCliked() }}>
-                        <FiMenu size="25px" />
-                    </button>
-                    <Link className="desenvolvedor" to="/desenvolvedor">
-                        Desenvolvedor
-                    </Link>
-                    <Link to="/cadeia_markov">
-                        Cadeia de Markov ?
-                    </Link>
+                    <div>
+                        <button onClick={() => { menuButtonCliked() }}>
+                            <FiMenu size="25px" />
+                        </button>
+                    </div>
+                    <div className="desenvolvedor-markov">
+                        <Link to="/desenvolvedor">
+                            Desenvolvedor
+                        </Link>
+                        <Link to="/cadeia_markov">
+                            Cadeia de Markov ?
+                        </Link>
+                    </div>
                 </header>
-                <Menu style={slideMenu()} />
+                <div className="flyoutMenu">
+                    <Menu style={slideMenu()} />
+                </div>
                 <main>
                     <h1>MARKOV CHAINS</h1>
                     <span>Gere textos a partir de tweets do Twitter utilizando Cadeias de Markov.</span>
                     <span>Divirta-se!</span>
-                    <img src={landGif} width="310px" height="612px" alt="máquina de Galton" />
+                    <div>
+                        <img src={landGif} width="321px" height="612px" alt="máquina de Galton" />
+                    </div>
                 </main>
                 <footer>
                     <div>
