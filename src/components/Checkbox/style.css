@@ -31,12 +31,11 @@
 .checkbox .custom-checkbox input:checked ~ .checked {
     display: flex;
     position: relative;
-    top: -20px;
+    bottom: 19px;
     height: 14px;
     width: 14px;
     border-radius: 20px;
     background-color: #000000;
     border: 2px solid #FFF;
     pointer-events: none;
-    
 }
