@@ -23,7 +23,7 @@ function Checkbox(props: CheckboxType) {
                     <span className="checked"/>
                 </span>
                 {props.value}
-                </span>    
+            </span>    
         </div>
     )
 
